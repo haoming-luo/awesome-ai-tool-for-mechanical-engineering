@@ -42,14 +42,14 @@
 
 MCAD内（または隣接）でモデリングを加速する自然言語アシスタントとText-to-CAD。
 
-- [SOLIDWORKS AI Companions (AURA & LEO)](https://www.solidworks.com/product/solidworks-design/ai-companions) — アプリ内コンパニオン。AURAは社内/Webナレッジ、LEOは会話型の設計支援。Tags: `Commercial`
-- [Creo AI Assistant](https://support.ptc.com/help/creo/creo_ai/usascii/ai_assistant/overview.html) — Creo内でのドキュメント参照、モデル文脈Q&A、CAD作業支援。Tags: `Commercial`
-- [Autodesk Assistant in Inventor](https://help.autodesk.com/view/INVNTOR/2027/ENU/?guid=ABOUT-AUTODESK-ASSISTANT-INVENTOR) — Inventor向け自然言語ヘルプ、モデル照会、タスク自動化。Tags: `Commercial`
+- [SOLIDWORKS AI Virtual Companions (AURA, LEO & MARIE)](https://www.solidworks.com/product/solidworks-design/ai-virtual-companions) — アプリ内コンパニオン。AURAは社内/Webナレッジ、LEOは会話型の設計支援、MARIEは材料選定支援。Tags: `Commercial`
+- [Creo AI Assistant](https://support.ptc.com/help/creo/creo_ai/usascii/ai_assistant/overview.html) — Creo内のエージェント。Creo Advise（無料、ドキュメント参照・モデル文脈Q&A）とCreo Assist（CAD作業支援、Advanced AIライセンス）。Tags: `Commercial`
+- [Autodesk Assistant in Inventor](https://www.autodesk.com/blogs/design-and-manufacturing/meet-autodesk-assistant-in-inventor-2027/) — Inventor向け自然言語ヘルプ、モデル照会、タスク自動化（Inventor 2027以降）。Tags: `Commercial`
 - [MecAgent](https://mecagent.com/) — SOLIDWORKS & Inventor向けコパイロット。Text-to-マクロ、図面自動化、工学Q&A、実験的Text-to-STEP/STL。Tags: `Commercial`
 - [Zoo Design Studio](https://zoo.dev/) — 会話型Text-to-CADを備えたAIネイティブCAD（編集可能なB-rep / KCL）。Tags: `Commercial`
 - [Leo AI](https://www.getleo.ai/) — 仕様/スケッチからのアセンブリ生成と、ボルト内の形状ベース部品検索。Tags: `Commercial`
 - [CATIA / 3DEXPERIENCE](https://www.3ds.com/products/catia) — ジオメトリ支援とプラットフォーム知識ワークフロー向けDassault AI。Tags: `Commercial`
-- [Siemens NX AI](https://www.siemens.com/en-us/products/designcenter/cad-software/ai/) — NXのコマンド予測、性能予測、ジェネレーティブ/トポロジー。Tags: `Commercial`
+- [Siemens NX AI](https://www.siemens.com/en-us/products/designcenter/cad-software/ai/) — NXのコマンド予測、性能予測、ジェネレーティブ/トポロジー（現在はSiemens Designcenterの一部）。Tags: `Commercial`
 
 ## ジェネレーティブデザイン & トポロジー最適化
 
@@ -58,18 +58,20 @@ MCAD内（または隣接）でモデリングを加速する自然言語アシ�
 - [Autodesk Fusion Generative Design](https://www.autodesk.com/products/fusion-360/) — Fusion内の多目的ジェネレーティブデザイン（製造制約付き代替案）。Tags: `Commercial`
 - [PTC Creo Generative Design](https://www.ptc.com/en/technologies/cad/generative-design) — Creo GTO / GDXによる制約駆動のコンセプト探索。Tags: `Commercial`
 - [nTop](https://www.ntop.com/) — ラティス、トポロジーソリッド、共形流路、AM向け形状のフィールド駆動/陰関数設計。Tags: `Commercial`
-- [Simcenter Inspire](https://www.siemens.com/en-us/products/simcenter/mechanical-simulation/inspire/) — 設計者向けトポロジー最適化と構造コンセプト検討。Tags: `Commercial`
-- [Ansys GeomAI](https://www.ansys.com/products/ai/geomai) — 参照形状から学習してコンセプト探索。SimAI/ソルバーと連携。Tags: `Commercial`
+- [Simcenter Inspire](https://www.siemens.com/en-us/products/simcenter/mechanical-simulation/inspire/) — 設計者向けトポロジー最適化と構造コンセプト検討（旧Altair Inspire、現在はSimcenterファミリー）。Tags: `Commercial`
+- [Ansys GeomAI](https://ansys.synopsys.com/products/ai/geomai) — 参照形状から学習してコンセプト探索。SimAI/ソルバーと連携（AnsysはSynopsys傘下）。Tags: `Commercial`
 - ネイティブCADトポロジー機能 — Fusion、Creo、SOLIDWORKS Simulation、NX Topology Optimizationなどの組み込み軽量化。Tags: `Commercial`
 
 ## シミュレーション、CAE & サロゲートAI
 
 セットアップ高速化、リアルタイムWhat-if、過去CAEデータからの場予測。
 
-- [Ansys SimAI](https://www.ansys.com/products/ai/simai) — 既存シミュレーション結果で学習し、新設計の3D場を予測。Tags: `Commercial`
+- [Ansys SimAI](https://www.ansys.com/products/ai/simai) — 既存シミュレーション結果で学習し、新設計の3D場を予測。SimAI Pro / SimAI Premiumの2プラン。Tags: `Commercial`
 - [Ansys Discovery](https://www.ansys.com/products/3d-design/ansys-discovery) — GPU上のリアルタイム構造/熱/流体探索。本格ソルバーへの引き継ぎも。Tags: `Commercial`
 - [Simcenter PhysicsAI](https://www.siemens.com/en-us/products/simcenter/engineering-data-science-ai/physicsai/) — CAEデータ上の幾何深層学習による高速物理予測。Tags: `Commercial`
 - [Neural Concept](https://www.neuralconcept.com/) — 形状ベースAIによるリアルタイムマルチフィジックス予測と設計空間探索。Tags: `Commercial`
+- [PhysicsX](https://www.physicsx.ai/) — シミュレーション、Physics AI、データを統合したAIネイティブなエンジニアリング基盤。設計・製造・運用をカバー。Tags: `Commercial`
+- [Luminary](https://luminary.ai/) — 「Large Physics Models」を学習・展開するPhysics AIプラットフォーム（旧Luminary Cloud）。流れ・構造・熱を1秒未満で予測。Tags: `Commercial`
 - [SimScale](https://www.simscale.com/) — AI支援セットアップ付きクラウドFEA/CFD/熱解析。Tags: `Commercial`
 
 ## Physics-ML、PINNs & オープンフレームワーク
@@ -83,7 +85,7 @@ MCAD内（または隣接）でモデリングを加速する自然言語アシ�
 
 新規形状を作る前に、検証済み部品と社内知を再利用。
 
-- [SOLIDWORKS AURA](https://www.solidworks.com/product/solidworks-design/ai-companions) — 設計環境内で社内ナレッジ、3DSwym、ドキュメントへ接続。Tags: `Commercial`
+- [SOLIDWORKS AURA](https://www.solidworks.com/product/solidworks-design/ai-virtual-companions) — 設計環境内で社内ナレッジ、3DSwym、ドキュメントへ接続。Tags: `Commercial`
 - 形状ベースの類似部品検索は [Leo AI](#cadコパイロット--text-to-cad) も参照。
 
 ## DFM、GD&T & デザインレビュー
@@ -91,16 +93,16 @@ MCAD内（または隣接）でモデリングを加速する自然言語アシ�
 図面/モデルレビュー、変更検出、製造性チェックの自動化。
 
 - [bananaz](https://www.bananaz.ai/) — CAD/図面差分、DFM、GD&T/公差レビュー、赤入れ向けAIエージェント。Tags: `Commercial`
-- [CoLab AutoReview](https://www.colabsoftware.com/product/autoreview) — モデルと図面のAIレビュー（GD&T、完全性、規格、DFM）と追跡可能なマークアップ。Tags: `Commercial`
+- [CoLab AutoReview](https://www.colabsoftware.com/product/autoreview) — モデルと図面のAIレビュー（GD&T、完全性、規格、DFM）と追跡可能なマークアップ。初期顧客へ順次提供中（ウェイトリスト）。Tags: `Commercial`
 
 ## V&V（検証・妥当性確認）
 
 物理試作を減らし、シミュレーション根拠を追跡可能にするMLとSPDM。
 
-- [Monolith AI](https://www.monolithai.com/) — 仮想テスト向けML。過去の試験/シミュレーションから結果を予測し試作ループを縮小。Tags: `Commercial`
-- [Ansys Minerva](https://www.ansys.com/products/connect/ansys-minerva) — 追跡・監査可能なシミュレーションV&V向けSPDM。Tags: `Commercial`
+- [Monolith](https://www.monolithai.com/) — 仮想テスト向けML。過去の試験/シミュレーションから結果を予測し試作ループを縮小（現在はCoreWeave傘下）。Tags: `Commercial`
+- [Ansys Minerva](https://ansys.synopsys.com/products/connect/ansys-minerva) — 追跡・監査可能なシミュレーションV&V向けSPDM（Arasベース）。Tags: `Commercial`
 - [Siemens Simcenter Testlab](https://www.siemens.com/en-us/products/simcenter/physical-testing/testlab/) — 物理試験/NVH解析と試験↔シミュレーション相関。Tags: `Commercial`
-- [COMSOL Model Manager](https://www.comsol.com/model-manager) — V&Vライフサイクル全体でマルチフィジックスモデルを版管理・検証。Tags: `Commercial`
+- [COMSOL Model Manager](https://www.comsol.com/comsol-multiphysics/model-manager) — V&Vライフサイクル全体でマルチフィジックスモデルを版管理・検証。Tags: `Commercial`
 
 ## MCP & エージェントツール
 
@@ -124,10 +126,10 @@ CAD/CAEアプリと対話するエージェント向けの短いポインタ。�
 ### HIL & テストツール
 
 - [dSPACE SCALEXIO / ASM](https://www.dspace.com/) — HILシステムと車両/ECUシミュレーションモデル。Tags: `Commercial`
-- [Vector CANoe](https://www.vector.com/int/en/products/products-a-z/software/canoe/) — ECU・ネットワークの開発、テスト、解析。Tags: `Commercial`
-- [NI VeriStand](https://www.ni.com/en/shop/veristand.html) — リアルタイムHIL、モデル検証、迅速な制御プロトタイピング。Tags: `Commercial`
+- [Vector CANoe](https://www.vector.com/en/product/canoe/) — ECU・ネットワークの開発、テスト、解析（SIL & HIL）。Tags: `Commercial`
+- [NI VeriStand](https://www.ni.com/en-us/shop/product/veristand.html) — リアルタイムHIL、モデル検証、迅速な制御プロトタイピング（NIは現在Emerson傘下）。Tags: `Commercial`
 - [MathWorks Simulink Test](https://www.mathworks.com/products/simulink-test.html) — 要求トレーサビリティとモデル検証の自動化。Tags: `Commercial`
-- [ETAS LABCAR](https://www.etas.com/en/products/labcar.php) — 実運用条件に近いECU妥当性確認向けHIL。Tags: `Commercial`
+- [ETAS LABCAR](https://www.etas.com/ww/en/products-services/) — 実運用条件に近いECU妥当性確認向けHIL。Tags: `Commercial`
 - [ASAM ODS](https://www.asam.net/standards/detail/ods/) — 計測・シミュレーション・妥当性確認データの交換標準。Tags: `Commercial`
 
 ODSエコシステムへのポインタ（網羅カタログではありません）: [Peak ODS Server](https://www.peak-solution.com/)、[openMDM](https://openmdm.org/)、[AVL CONCERTO](https://www.avl.com/)。
@@ -136,7 +138,7 @@ ODSエコシステムへのポインタ（網羅カタログではありませ�
 
 - [Eclipse Capella](https://github.com/eclipse-capella/capella) — システムレベル間のアーキテクチャ分解向けArcadia MBSE。Tags: `OSS`
 - [CARLA](https://github.com/carla-simulator/carla) + [esmini / OpenSCENARIO](https://github.com/esmini/esmini) — シナリオレベルV&V向けオープン運転シミュレータとシナリオ標準。Tags: `OSS`
-- [openMDM](https://openmdm.org/) — ASAM ODSベースの試験データ管理向けEclipseコンポーネント。Tags: `OSS`
+- [openMDM](https://openmdm.org/) — ASAM ODSベースの試験データ管理向けEclipseコンポーネント（Eclipseワーキンググループは活動終了）。Tags: `OSS`
 
 ## コントリビューション
 

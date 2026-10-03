@@ -42,14 +42,14 @@
 
 Natural-language assistants and text-to-CAD that accelerate modeling inside (or next to) MCAD.
 
-- [SOLIDWORKS AI Companions (AURA & LEO)](https://www.solidworks.com/product/solidworks-design/ai-companions) — In-app companions: AURA for enterprise/web knowledge, LEO for conversational design help. Tags: `Commercial`
-- [Creo AI Assistant](https://support.ptc.com/help/creo/creo_ai/usascii/ai_assistant/overview.html) — In-Creo docs, model-context Q&A, and assisted CAD tasks. Tags: `Commercial`
-- [Autodesk Assistant in Inventor](https://help.autodesk.com/view/INVNTOR/2027/ENU/?guid=ABOUT-AUTODESK-ASSISTANT-INVENTOR) — Natural-language help, model queries, and task automation in Inventor. Tags: `Commercial`
+- [SOLIDWORKS AI Virtual Companions (AURA, LEO & MARIE)](https://www.solidworks.com/product/solidworks-design/ai-virtual-companions) — In-app companions: AURA for enterprise/web knowledge, LEO for conversational design help, MARIE for materials guidance. Tags: `Commercial`
+- [Creo AI Assistant](https://support.ptc.com/help/creo/creo_ai/usascii/ai_assistant/overview.html) — In-Creo agents: Creo Advise (free docs and model-context Q&A) and Creo Assist (assisted CAD tasks, Advanced AI license). Tags: `Commercial`
+- [Autodesk Assistant in Inventor](https://www.autodesk.com/blogs/design-and-manufacturing/meet-autodesk-assistant-in-inventor-2027/) — Natural-language help, model queries, and task automation in Inventor (since Inventor 2027). Tags: `Commercial`
 - [MecAgent](https://mecagent.com/) — SOLIDWORKS & Inventor copilot: text-to-macros, drawing automation, engineering Q&A, experimental text-to-STEP/STL. Tags: `Commercial`
 - [Zoo Design Studio](https://zoo.dev/) — AI-native CAD with conversational text-to-CAD (editable B-rep / KCL). Tags: `Commercial`
 - [Leo AI](https://www.getleo.ai/) — Spec/sketch → assemblies plus shape-based part search across your vault. Tags: `Commercial`
 - [CATIA / 3DEXPERIENCE](https://www.3ds.com/products/catia) — Dassault AI for geometry assistance and platform knowledge workflows. Tags: `Commercial`
-- [Siemens NX AI](https://www.siemens.com/en-us/products/designcenter/cad-software/ai/) — Command prediction, performance predictors, and generative/topology workflows in NX. Tags: `Commercial`
+- [Siemens NX AI](https://www.siemens.com/en-us/products/designcenter/cad-software/ai/) — Command prediction, performance predictors, and generative/topology workflows in NX (now part of Siemens Designcenter). Tags: `Commercial`
 
 ## Generative Design & Topology Optimization
 
@@ -58,18 +58,20 @@ Constraint-driven geometry and lightweighting (loads, materials, manufacturing m
 - [Autodesk Fusion Generative Design](https://www.autodesk.com/products/fusion-360/) — Multi-objective generative design in Fusion with manufacturing-aware alternatives. Tags: `Commercial`
 - [PTC Creo Generative Design](https://www.ptc.com/en/technologies/cad/generative-design) — Creo GTO / GDX for constraint-driven concept exploration. Tags: `Commercial`
 - [nTop](https://www.ntop.com/) — Field-driven / implicit design for lattices, topology solids, conformal channels, AM-ready geometry. Tags: `Commercial`
-- [Simcenter Inspire](https://www.siemens.com/en-us/products/simcenter/mechanical-simulation/inspire/) — Designer-facing topology optimization and structural concepting. Tags: `Commercial`
-- [Ansys GeomAI](https://www.ansys.com/products/ai/geomai) — Learns from reference geometries to explore concepts; pairs with SimAI / solvers. Tags: `Commercial`
+- [Simcenter Inspire](https://www.siemens.com/en-us/products/simcenter/mechanical-simulation/inspire/) — Designer-facing topology optimization and structural concepting (formerly Altair Inspire, now in the Simcenter family). Tags: `Commercial`
+- [Ansys GeomAI](https://ansys.synopsys.com/products/ai/geomai) — Learns from reference geometries to explore concepts; pairs with SimAI / solvers (Ansys is now part of Synopsys). Tags: `Commercial`
 - Native CAD topology studies — Built-in lightweighting in Fusion, Creo, SOLIDWORKS Simulation, and NX Topology Optimization. Tags: `Commercial`
 
 ## Simulation, CAE & Surrogate AI
 
 Faster setup, real-time what-if exploration, or field prediction from past CAE data.
 
-- [Ansys SimAI](https://www.ansys.com/products/ai/simai) — Train on legacy simulation results to predict 3D fields for new designs. Tags: `Commercial`
+- [Ansys SimAI](https://www.ansys.com/products/ai/simai) — Train on legacy simulation results to predict 3D fields for new designs; offered as SimAI Pro and SimAI Premium. Tags: `Commercial`
 - [Ansys Discovery](https://www.ansys.com/products/3d-design/ansys-discovery) — Real-time structural / thermal / fluid exploration on GPU, with handoff to flagship solvers. Tags: `Commercial`
 - [Simcenter PhysicsAI](https://www.siemens.com/en-us/products/simcenter/engineering-data-science-ai/physicsai/) — Geometric deep learning on CAE data for fast physics across meshes/topologies. Tags: `Commercial`
 - [Neural Concept](https://www.neuralconcept.com/) — Geometry-aware AI for real-time multiphysics prediction and design-space exploration. Tags: `Commercial`
+- [PhysicsX](https://www.physicsx.ai/) — AI-native engineering stack combining simulation, physics AI, and data across design, manufacturing, and operations. Tags: `Commercial`
+- [Luminary](https://luminary.ai/) — Physics AI platform (formerly Luminary Cloud) for training and deploying "Large Physics Models" that predict flow, structures, and heat in under a second. Tags: `Commercial`
 - [SimScale](https://www.simscale.com/) — Cloud FEA/CFD/thermal with AI-assisted setup and collaboration. Tags: `Commercial`
 
 ## Physics-ML, PINNs & Open Frameworks
@@ -83,7 +85,7 @@ Open stacks when you own the training loop (PINNs, neural operators, hybrid Phys
 
 Reuse validated parts and tribal knowledge instead of reinventing geometry.
 
-- [SOLIDWORKS AURA](https://www.solidworks.com/product/solidworks-design/ai-companions) — Connects designers to company knowledge, 3DSwym, and docs inside the design environment. Tags: `Commercial`
+- [SOLIDWORKS AURA](https://www.solidworks.com/product/solidworks-design/ai-virtual-companions) — Connects designers to company knowledge, 3DSwym, and docs inside the design environment. Tags: `Commercial`
 - See also [Leo AI](#cad-copilots--text-to-cad) for shape-based similar-part search in vaults/PDM.
 
 ## DFM, GD&T & Design Review
@@ -91,16 +93,16 @@ Reuse validated parts and tribal knowledge instead of reinventing geometry.
 Automated drawing/model review, change detection, and manufacturability checks.
 
 - [bananaz](https://www.bananaz.ai/) — AI agents for CAD/drawing diffs, DFM, GD&T/tolerance review, and redlines. Tags: `Commercial`
-- [CoLab AutoReview](https://www.colabsoftware.com/product/autoreview) — AI reviews on models and drawings (GD&T, completeness, standards, DFM) with tracked markups. Tags: `Commercial`
+- [CoLab AutoReview](https://www.colabsoftware.com/product/autoreview) — AI reviews on models and drawings (GD&T, completeness, standards, DFM) with tracked markups; rolling out to early customers (waitlist). Tags: `Commercial`
 
 ## V&V (Verification & Validation)
 
 ML and SPDM that cut physical prototypes and keep simulation evidence traceable.
 
-- [Monolith AI](https://www.monolithai.com/) — ML for virtual testing: predict outcomes from past tests/sims and shrink prototype loops. Tags: `Commercial`
-- [Ansys Minerva](https://www.ansys.com/products/connect/ansys-minerva) — SPDM for traceable, auditable simulation V&V workflows. Tags: `Commercial`
+- [Monolith](https://www.monolithai.com/) — ML for virtual testing: predict outcomes from past tests/sims and shrink prototype loops (now part of CoreWeave). Tags: `Commercial`
+- [Ansys Minerva](https://ansys.synopsys.com/products/connect/ansys-minerva) — SPDM (powered by Aras) for traceable, auditable simulation V&V workflows. Tags: `Commercial`
 - [Siemens Simcenter Testlab](https://www.siemens.com/en-us/products/simcenter/physical-testing/testlab/) — Physical testing / NVH analytics with test↔simulation correlation. Tags: `Commercial`
-- [COMSOL Model Manager](https://www.comsol.com/model-manager) — Version-control and verify multiphysics models across the V&V lifecycle. Tags: `Commercial`
+- [COMSOL Model Manager](https://www.comsol.com/comsol-multiphysics/model-manager) — Version-control and verify multiphysics models across the V&V lifecycle. Tags: `Commercial`
 
 ## MCP & Agent Tooling
 
@@ -124,10 +126,10 @@ Optional short list for vehicle HIL / ECU V&V. Skip unless you work automotive c
 ### HIL & test tooling
 
 - [dSPACE SCALEXIO / ASM](https://www.dspace.com/) — HIL systems and vehicle/ECU simulation models. Tags: `Commercial`
-- [Vector CANoe](https://www.vector.com/int/en/products/products-a-z/software/canoe/) — ECU & network development, testing, and analysis. Tags: `Commercial`
-- [NI VeriStand](https://www.ni.com/en/shop/veristand.html) — Real-time HIL, model validation, and rapid control prototyping. Tags: `Commercial`
+- [Vector CANoe](https://www.vector.com/en/product/canoe/) — ECU & network development, testing, and analysis (SIL & HIL). Tags: `Commercial`
+- [NI VeriStand](https://www.ni.com/en-us/shop/product/veristand.html) — Real-time HIL, model validation, and rapid control prototyping (NI is now part of Emerson). Tags: `Commercial`
 - [MathWorks Simulink Test](https://www.mathworks.com/products/simulink-test.html) — Requirements traceability and automated model verification. Tags: `Commercial`
-- [ETAS LABCAR](https://www.etas.com/en/products/labcar.php) — HIL environment for ECU validation under realistic conditions. Tags: `Commercial`
+- [ETAS LABCAR](https://www.etas.com/ww/en/products-services/) — HIL environment for ECU validation under realistic conditions. Tags: `Commercial`
 - [ASAM ODS](https://www.asam.net/standards/detail/ods/) — Standard for exchanging measurement, simulation, and validation data. Tags: `Commercial`
 
 Pointers into the ODS ecosystem (not a full vendor catalog): [Peak ODS Server](https://www.peak-solution.com/), [openMDM](https://openmdm.org/), [AVL CONCERTO](https://www.avl.com/).
@@ -136,7 +138,7 @@ Pointers into the ODS ecosystem (not a full vendor catalog): [Peak ODS Server](h
 
 - [Eclipse Capella](https://github.com/eclipse-capella/capella) — Arcadia MBSE for architecture decomposition across system levels. Tags: `OSS`
 - [CARLA](https://github.com/carla-simulator/carla) + [esmini / OpenSCENARIO](https://github.com/esmini/esmini) — Open driving simulator and scenario standards for scenario-level V&V. Tags: `OSS`
-- [openMDM](https://openmdm.org/) — Eclipse components for ASAM ODS–based test data management. Tags: `OSS`
+- [openMDM](https://openmdm.org/) — Eclipse components for ASAM ODS–based test data management (the Eclipse working group is no longer active). Tags: `OSS`
 
 ## Contributing
 
