@@ -6,6 +6,8 @@
 
 **対象範囲:** 機械エンジニア向けに、**CAD → CAE → レビュー → V&V** にわたる商用＋オープンツール。
 
+⭐ バッジは GitHub のスター数をリアルタイム表示します(shields.io)。
+
 [English](README.md)
 
 ## まずはここから
@@ -35,6 +37,7 @@
 - [自動車V&V（深掘り）](#自動車vv深掘り)
 - [コントリビューション](#コントリビューション)
 - [ライセンス](#ライセンス)
+- [shvyac の awesome リスト](#shvyac-の-awesome-リスト)
 
 ---
 
@@ -45,9 +48,10 @@ MCAD内（または隣接）でモデリングを加速する自然言語アシ�
 - [SOLIDWORKS AI Virtual Companions (AURA, LEO & MARIE)](https://www.solidworks.com/product/solidworks-design/ai-virtual-companions) — アプリ内コンパニオン。AURAは社内/Webナレッジ、LEOは会話型の設計支援、MARIEは材料選定支援。Tags: `Commercial`
 - [Creo AI Assistant](https://support.ptc.com/help/creo/creo_ai/usascii/ai_assistant/overview.html) — Creo内のエージェント。Creo Advise（無料、ドキュメント参照・モデル文脈Q&A）とCreo Assist（CAD作業支援、Advanced AIライセンス）。Tags: `Commercial`
 - [Autodesk Assistant in Inventor](https://www.autodesk.com/blogs/design-and-manufacturing/meet-autodesk-assistant-in-inventor-2027/) — Inventor向け自然言語ヘルプ、モデル照会、タスク自動化（Inventor 2027以降）。Tags: `Commercial`
-- [MecAgent](https://mecagent.com/) — SOLIDWORKS & Inventor向けコパイロット。Text-to-マクロ、図面自動化、工学Q&A、実験的Text-to-STEP/STL。Tags: `Commercial`
-- [Zoo Design Studio](https://zoo.dev/) — 会話型Text-to-CADを備えたAIネイティブCAD（編集可能なB-rep / KCL）。Tags: `Commercial`
+- [MecAgent](https://mecagent.com/) — SOLIDWORKS & Inventor向けコパイロットと、SOLIDWORKS内で動くV2エージェント。Text/Image-to-CAD、図面からのCAD化、アセンブリ、BOM、マクロ、図面作成（Onshape版も予定）。Tags: `Commercial`
+- [Zoo Design Studio](https://zoo.dev/) — Zookeeperエージェントによる会話型Text-to-CADを備えたAIネイティブCAD（編集可能なB-rep / KCL）。Tags: `Commercial`
 - [Leo AI](https://www.getleo.ai/) — 仕様/スケッチからのアセンブリ生成と、ボルト内の形状ベース部品検索。Tags: `Commercial`
+- [Adam](https://adam.new/) — ハードウェアチーム向けAI CADコパイロット（YC）。SlackやメールでOnshape、Fusion、SOLIDWORKSの作業を依頼すると、ブランチ上のモデル編集、BOM、図面、サプライヤー見積を返す。Tags: `Commercial`
 - [CATIA / 3DEXPERIENCE](https://www.3ds.com/products/catia) — ジオメトリ支援とプラットフォーム知識ワークフロー向けDassault AI。Tags: `Commercial`
 - [Siemens NX AI](https://www.siemens.com/en-us/products/designcenter/cad-software/ai/) — NXのコマンド予測、性能予測、ジェネレーティブ/トポロジー（現在はSiemens Designcenterの一部）。Tags: `Commercial`
 
@@ -55,7 +59,7 @@ MCAD内（または隣接）でモデリングを加速する自然言語アシ�
 
 荷重・材料・製法制約に基づく形状生成と軽量化。
 
-- [Autodesk Fusion Generative Design](https://www.autodesk.com/products/fusion-360/) — Fusion内の多目的ジェネレーティブデザイン（製造制約付き代替案）。Tags: `Commercial`
+- [Autodesk Fusion Generative Design](https://www.autodesk.com/products/fusion-360/) — Autodesk Fusion（旧Fusion 360）内の多目的ジェネレーティブデザイン（製造制約付き代替案）。Tags: `Commercial`
 - [PTC Creo Generative Design](https://www.ptc.com/en/technologies/cad/generative-design) — Creo GTO / GDXによる制約駆動のコンセプト探索。Tags: `Commercial`
 - [nTop](https://www.ntop.com/) — ラティス、トポロジーソリッド、共形流路、AM向け形状のフィールド駆動/陰関数設計。Tags: `Commercial`
 - [Simcenter Inspire](https://www.siemens.com/en-us/products/simcenter/mechanical-simulation/inspire/) — 設計者向けトポロジー最適化と構造コンセプト検討（旧Altair Inspire、現在はSimcenterファミリー）。Tags: `Commercial`
@@ -67,7 +71,7 @@ MCAD内（または隣接）でモデリングを加速する自然言語アシ�
 セットアップ高速化、リアルタイムWhat-if、過去CAEデータからの場予測。
 
 - [Ansys SimAI](https://www.ansys.com/products/ai/simai) — 既存シミュレーション結果で学習し、新設計の3D場を予測。SimAI Pro / SimAI Premiumの2プラン。Tags: `Commercial`
-- [Ansys Discovery](https://www.ansys.com/products/3d-design/ansys-discovery) — GPU上のリアルタイム構造/熱/流体探索。本格ソルバーへの引き継ぎも。Tags: `Commercial`
+- [Ansys Discovery](https://ansys.synopsys.com/products/3d-design/ansys-discovery) — GPU上のリアルタイム構造/熱/流体探索。本格ソルバーへの引き継ぎも（AnsysはSynopsys傘下）。Tags: `Commercial`
 - [Simcenter PhysicsAI](https://www.siemens.com/en-us/products/simcenter/engineering-data-science-ai/physicsai/) — CAEデータ上の幾何深層学習による高速物理予測。Tags: `Commercial`
 - [Neural Concept](https://www.neuralconcept.com/) — 形状ベースAIによるリアルタイムマルチフィジックス予測と設計空間探索。Tags: `Commercial`
 - [PhysicsX](https://www.physicsx.ai/) — シミュレーション、Physics AI、データを統合したAIネイティブなエンジニアリング基盤。設計・製造・運用をカバー。Tags: `Commercial`
@@ -78,8 +82,8 @@ MCAD内（または隣接）でモデリングを加速する自然言語アシ�
 
 学習ループを自前で回すときのオープンなPINNs / ニューラル演算子 / ハイブリッドPhysics-ML。
 
-- [NVIDIA PhysicsNeMo](https://developer.nvidia.com/physicsnemo) — PINNs、ニューラル演算子、GNN、ハイブリッドPhysics-ML向けPyTorchフレームワーク（[GitHub](https://github.com/NVIDIA/physicsnemo)）。Tags: `OSS`
-- [DeepXDE](https://deepxde.readthedocs.io/) — PINNs / PDE向け深層学習の定番ライブラリ。教育・研究の入口に適する（[GitHub](https://github.com/lululxvi/deepxde)）。Tags: `OSS`
+- [NVIDIA PhysicsNeMo](https://developer.nvidia.com/physicsnemo) ![GitHub stars](https://img.shields.io/github/stars/NVIDIA/physicsnemo?style=flat&label=%E2%AD%90) — PINNs、ニューラル演算子、GNN、ハイブリッドPhysics-ML向けPyTorchフレームワーク（[GitHub](https://github.com/NVIDIA/physicsnemo)）。Tags: `OSS`
+- [DeepXDE](https://deepxde.readthedocs.io/) ![GitHub stars](https://img.shields.io/github/stars/lululxvi/deepxde?style=flat&label=%E2%AD%90) — PINNs / PDE向け深層学習の定番ライブラリ。教育・研究の入口に適する（[GitHub](https://github.com/lululxvi/deepxde)）。Tags: `OSS`
 
 ## CAD検索、PDM & ナレッジ
 
@@ -108,16 +112,19 @@ MCAD内（または隣接）でモデリングを加速する自然言語アシ�
 
 CAD/CAEアプリと対話するエージェント向けの短いポインタ。本リストは**機械設計ワークフロー優先**（商用含む）。OSSのエージェント呼び出し可能性ランキングは [awesome-ai-cae](https://github.com/kimimgo/awesome-ai-cae) を参照。
 
-- [Awesome-Physical-Engineering-AI](https://github.com/010zx00x1/Awesome-Physical-Engineering-AI) — CAD/デザイン向けMCPコネクタ等のキュレーション（Fusion MCP、Blender Lab MCP、SketchUpなど）。Tags: `OSS`
-- [awesome-ai-cae](https://github.com/kimimgo/awesome-ai-cae) — エージェント呼び出し可能なOSS CAE/CADスタック（MCP / Python / CLI）とレディネス評価。Tags: `OSS`
+- [Awesome-Physical-Engineering-AI](https://github.com/010zx00x1/Awesome-Physical-Engineering-AI) ![GitHub stars](https://img.shields.io/github/stars/010zx00x1/Awesome-Physical-Engineering-AI?style=flat&label=%E2%AD%90) — CAD/デザイン向けMCPコネクタ等のキュレーション（Fusion MCP、Blender Lab MCP、SketchUpなど）。Tags: `OSS`
+- [awesome-ai-cae](https://github.com/kimimgo/awesome-ai-cae) ![GitHub stars](https://img.shields.io/github/stars/kimimgo/awesome-ai-cae?style=flat&label=%E2%AD%90) — エージェント呼び出し可能なOSS CAE/CADスタック（MCP / Python / CLI）とレディネス評価。Tags: `OSS`
+- [Autodesk Fusion MCP](https://www.autodesk.com/products/fusion-360/blog/introducing-the-fusion-mcp-opening-fusion-to-ai-powered-workflows/) — AIクライアントからFusion内で設計の作成・編集を行う公式MCPサーバー（デスクトップ）と、プロジェクトデータを扱うFusion Data MCP Server。Tags: `Commercial`
+- [Onshape FeatureScript MCP Server](https://www.onshape.com/en/features/onshape-labs) — Onshape Labs（PTC）のアーリーアクセス。AIクライアントがFeatureScriptを記述・実行・修正し、再利用可能なパラメトリックなカスタムフィーチャーを作成。Tags: `Commercial`
+- [text-to-cad](https://github.com/earthtojake/text-to-cad) ![GitHub stars](https://img.shields.io/github/stars/earthtojake/text-to-cad?style=flat&label=%E2%AD%90) — AIコーディングエージェントにCAD機能（STEP/STL出力）を与えるオープンソースのツールキット。2026年10月にGitHubでトレンド入り。Tags: `OSS`
 
 ## 関連Awesomeリスト
 
-- [awesome-ai-cae](https://github.com/kimimgo/awesome-ai-cae) — AI呼び出し可能なCAE/CADツールとエージェントレディネス。Tags: `OSS`
-- [awesome-cad-cae](https://github.com/shvyac/awesome-cad-cae) — CAD/CAEアプリ、カーネル、FEA/CFD、トポロジー最適化。Tags: `OSS`
-- [awesome-open-source-solvers](https://github.com/shvyac/awesome-open-source-solvers) — オープンなFEM/CFD/MBD/粒子ソルバーと科学計算スタック。Tags: `OSS`
-- [Awesome-Physical-Engineering-AI](https://github.com/010zx00x1/Awesome-Physical-Engineering-AI) — ハードウェアエンジニアリング向けAI（CAD、シミュレーション、製造）。Tags: `OSS`
-- [awesome-mechanical-engineering](https://github.com/awesomelistsio/awesome-mechanical-engineering) — より広い機械工学ツール、プラットフォーム、学習リソース。Tags: `OSS`
+- [awesome-ai-cae](https://github.com/kimimgo/awesome-ai-cae) ![GitHub stars](https://img.shields.io/github/stars/kimimgo/awesome-ai-cae?style=flat&label=%E2%AD%90) — AI呼び出し可能なCAE/CADツールとエージェントレディネス。Tags: `OSS`
+- [awesome-cad-cae](https://github.com/shvyac/awesome-cad-cae) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-cad-cae?style=flat&label=%E2%AD%90) — CAD/CAEアプリ、カーネル、FEA/CFD、トポロジー最適化。Tags: `OSS`
+- [awesome-open-source-solvers](https://github.com/shvyac/awesome-open-source-solvers) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-open-source-solvers?style=flat&label=%E2%AD%90) — オープンなFEM/CFD/MBD/粒子ソルバーと科学計算スタック。Tags: `OSS`
+- [Awesome-Physical-Engineering-AI](https://github.com/010zx00x1/Awesome-Physical-Engineering-AI) ![GitHub stars](https://img.shields.io/github/stars/010zx00x1/Awesome-Physical-Engineering-AI?style=flat&label=%E2%AD%90) — ハードウェアエンジニアリング向けAI（CAD、シミュレーション、製造）。Tags: `OSS`
+- [awesome-mechanical-engineering](https://github.com/brandonhimpfen/awesome-mechanical-engineering) ![GitHub stars](https://img.shields.io/github/stars/brandonhimpfen/awesome-mechanical-engineering?style=flat&label=%E2%AD%90) — より広い機械工学ツール、プラットフォーム、学習リソース。Tags: `OSS`
 
 ## 自動車V&V（深掘り）
 
@@ -136,8 +143,8 @@ ODSエコシステムへのポインタ（網羅カタログではありませ�
 
 ### オープンソースMBSE / シナリオ（少数）
 
-- [Eclipse Capella](https://github.com/eclipse-capella/capella) — システムレベル間のアーキテクチャ分解向けArcadia MBSE。Tags: `OSS`
-- [CARLA](https://github.com/carla-simulator/carla) + [esmini / OpenSCENARIO](https://github.com/esmini/esmini) — シナリオレベルV&V向けオープン運転シミュレータとシナリオ標準。Tags: `OSS`
+- [Eclipse Capella](https://github.com/eclipse-capella/capella) ![GitHub stars](https://img.shields.io/github/stars/eclipse-capella/capella?style=flat&label=%E2%AD%90) — システムレベル間のアーキテクチャ分解向けArcadia MBSE。Tags: `OSS`
+- [CARLA](https://github.com/carla-simulator/carla) ![GitHub stars](https://img.shields.io/github/stars/carla-simulator/carla?style=flat&label=%E2%AD%90) + [esmini / OpenSCENARIO](https://github.com/esmini/esmini) ![GitHub stars](https://img.shields.io/github/stars/esmini/esmini?style=flat&label=%E2%AD%90) — シナリオレベルV&V向けオープン運転シミュレータとシナリオ標準。Tags: `OSS`
 - [openMDM](https://openmdm.org/) — ASAM ODSベースの試験データ管理向けEclipseコンポーネント（Eclipseワーキンググループは活動終了）。Tags: `OSS`
 
 ## コントリビューション
@@ -149,3 +156,25 @@ ODSエコシステムへのポインタ（網羅カタログではありませ�
 ## ライセンス
 
 [LICENSE](LICENSE) を参照してください。
+
+## shvyac の awesome リスト
+
+[shvyac](https://github.com/shvyac) が管理しているキュレーションリストの一覧:
+
+- [awesome-hamradio](https://github.com/shvyac/awesome-hamradio) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-hamradio?style=flat&label=%E2%AD%90)
+- [awesome-cad-cae](https://github.com/shvyac/awesome-cad-cae) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-cad-cae?style=flat&label=%E2%AD%90)
+- [awesome-map-gis](https://github.com/shvyac/awesome-map-gis) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-map-gis?style=flat&label=%E2%AD%90)
+- [awesome-ballroom-dance](https://github.com/shvyac/awesome-ballroom-dance) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ballroom-dance?style=flat&label=%E2%AD%90)
+- [awesome-ghost-artists](https://github.com/shvyac/awesome-ghost-artists) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ghost-artists?style=flat&label=%E2%AD%90)
+- [awesome-audio-softwares](https://github.com/shvyac/awesome-audio-softwares) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-audio-softwares?style=flat&label=%E2%AD%90)
+- [awesome-online-services](https://github.com/shvyac/awesome-online-services) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-online-services?style=flat&label=%E2%AD%90)
+- [awesome-trading-stock](https://github.com/shvyac/awesome-trading-stock) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-trading-stock?style=flat&label=%E2%AD%90)
+- [awesome-open-source-solvers](https://github.com/shvyac/awesome-open-source-solvers) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-open-source-solvers?style=flat&label=%E2%AD%90)
+- [awesome-m5stack-arduino](https://github.com/shvyac/awesome-m5stack-arduino) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-m5stack-arduino?style=flat&label=%E2%AD%90)
+- [awesome-AI-Powered-Executive-Dashboards](https://github.com/shvyac/awesome-AI-Powered-Executive-Dashboards) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-AI-Powered-Executive-Dashboards?style=flat&label=%E2%AD%90)
+- [awesome-ai-tool-for-mechanical-engineering](https://github.com/shvyac/awesome-ai-tool-for-mechanical-engineering) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ai-tool-for-mechanical-engineering?style=flat&label=%E2%AD%90)
+- [awesome-local-llm](https://github.com/shvyac/awesome-local-llm) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-local-llm?style=flat&label=%E2%AD%90)
+- [awesome-redmine-ai](https://github.com/shvyac/awesome-redmine-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-redmine-ai?style=flat&label=%E2%AD%90)
+- [awesome-dashboards-visualization](https://github.com/shvyac/awesome-dashboards-visualization) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-dashboards-visualization?style=flat&label=%E2%AD%90)
+- [awesome-osint-ai](https://github.com/shvyac/awesome-osint-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-osint-ai?style=flat&label=%E2%AD%90)
+- [awesome-cms-ai](https://github.com/shvyac/awesome-cms-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-cms-ai?style=flat&label=%E2%AD%90)
