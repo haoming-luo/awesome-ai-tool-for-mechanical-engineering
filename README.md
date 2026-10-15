@@ -6,7 +6,7 @@
 
 **Scope:** commercial + open tools across **CAD → CAE → review → V&V** for mechanical engineers.
 
-⭐ badges show live GitHub star counts (via shields.io).
+⭐ badges show live GitHub star counts (via shields.io). Release badges show the latest GitHub release version and date.
 
 [日本語](README.ja.md)
 
@@ -82,8 +82,8 @@ Faster setup, real-time what-if exploration, or field prediction from past CAE d
 
 Open stacks when you own the training loop (PINNs, neural operators, hybrid Physics-ML).
 
-- [NVIDIA PhysicsNeMo](https://developer.nvidia.com/physicsnemo) ![GitHub stars](https://img.shields.io/github/stars/NVIDIA/physicsnemo?style=flat&label=%E2%AD%90) — PyTorch framework for PINNs, neural operators, GNNs, and hybrid Physics-ML ([GitHub](https://github.com/NVIDIA/physicsnemo)). Tags: `OSS`
-- [DeepXDE](https://deepxde.readthedocs.io/) ![GitHub stars](https://img.shields.io/github/stars/lululxvi/deepxde?style=flat&label=%E2%AD%90) — Popular PINNs / deep-learning-for-PDEs library; strong teaching entry point ([GitHub](https://github.com/lululxvi/deepxde)). Tags: `OSS`
+- [NVIDIA PhysicsNeMo](https://developer.nvidia.com/physicsnemo) ![GitHub stars](https://img.shields.io/github/stars/NVIDIA/physicsnemo?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/NVIDIA/physicsnemo?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/NVIDIA/physicsnemo?style=flat&label=released) — PyTorch framework for PINNs, neural operators, GNNs, and hybrid Physics-ML ([GitHub](https://github.com/NVIDIA/physicsnemo)). Tags: `OSS`
+- [DeepXDE](https://deepxde.readthedocs.io/) ![GitHub stars](https://img.shields.io/github/stars/lululxvi/deepxde?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/lululxvi/deepxde?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/lululxvi/deepxde?style=flat&label=released) — Popular PINNs / deep-learning-for-PDEs library; strong teaching entry point ([GitHub](https://github.com/lululxvi/deepxde)). Tags: `OSS`
 
 ## CAD Search, PDM & Knowledge
 
@@ -116,7 +116,7 @@ Brief pointers for agents that talk to CAD/CAE apps. This list stays **ME-workfl
 - [awesome-ai-cae](https://github.com/kimimgo/awesome-ai-cae) ![GitHub stars](https://img.shields.io/github/stars/kimimgo/awesome-ai-cae?style=flat&label=%E2%AD%90) — Agent-callable OSS CAE/CAD stack (MCP / Python / CLI), with readiness ranking. Tags: `OSS`
 - [Autodesk Fusion MCP](https://www.autodesk.com/products/fusion-360/blog/introducing-the-fusion-mcp-opening-fusion-to-ai-powered-workflows/) — Official MCP servers that let AI clients create and edit designs inside Fusion (desktop) and work with Fusion project data (Fusion Data MCP Server). Tags: `Commercial`
 - [Onshape FeatureScript MCP Server](https://www.onshape.com/en/features/onshape-labs) — Onshape Labs (PTC) early-access server: AI clients write, run, and fix FeatureScript to build reusable parametric custom features. Tags: `Commercial`
-- [text-to-cad](https://github.com/earthtojake/text-to-cad) ![GitHub stars](https://img.shields.io/github/stars/earthtojake/text-to-cad?style=flat&label=%E2%AD%90) — Open-source agent toolkit that gives AI coding agents CAD abilities (STEP/STL output); trending on GitHub in Oct 2026. Tags: `OSS`
+- [text-to-cad](https://github.com/earthtojake/text-to-cad) ![GitHub stars](https://img.shields.io/github/stars/earthtojake/text-to-cad?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/earthtojake/text-to-cad?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/earthtojake/text-to-cad?style=flat&label=released) — Open-source agent toolkit that gives AI coding agents CAD abilities (STEP/STL output); trending on GitHub in Oct 2026. Tags: `OSS`
 
 ## Related Awesome Lists
 
@@ -124,7 +124,7 @@ Brief pointers for agents that talk to CAD/CAE apps. This list stays **ME-workfl
 - [awesome-cad-cae](https://github.com/shvyac/awesome-cad-cae) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-cad-cae?style=flat&label=%E2%AD%90) — CAD/CAE apps, kernels, FEA/CFD, topology optimization. Tags: `OSS`
 - [awesome-open-source-solvers](https://github.com/shvyac/awesome-open-source-solvers) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-open-source-solvers?style=flat&label=%E2%AD%90) — Open FEM/CFD/MBD/particle solvers and scientific stacks. Tags: `OSS`
 - [Awesome-Physical-Engineering-AI](https://github.com/010zx00x1/Awesome-Physical-Engineering-AI) ![GitHub stars](https://img.shields.io/github/stars/010zx00x1/Awesome-Physical-Engineering-AI?style=flat&label=%E2%AD%90) — Broader hardware-engineering AI (CAD, sim, manufacturing). Tags: `OSS`
-- [awesome-mechanical-engineering](https://github.com/brandonhimpfen/awesome-mechanical-engineering) ![GitHub stars](https://img.shields.io/github/stars/brandonhimpfen/awesome-mechanical-engineering?style=flat&label=%E2%AD%90) — Broader ME tools, platforms, and learning resources. Tags: `OSS`
+- [awesome-mechanical-engineering](https://github.com/brandonhimpfen/awesome-mechanical-engineering) ![GitHub stars](https://img.shields.io/github/stars/brandonhimpfen/awesome-mechanical-engineering?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/brandonhimpfen/awesome-mechanical-engineering?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/brandonhimpfen/awesome-mechanical-engineering?style=flat&label=released) — Broader ME tools, platforms, and learning resources. Tags: `OSS`
 
 ## Automotive V&V (deep-dive)
 
@@ -143,8 +143,8 @@ Pointers into the ODS ecosystem (not a full vendor catalog): [Peak ODS Server](h
 
 ### Open-source MBSE / scenario (few)
 
-- [Eclipse Capella](https://github.com/eclipse-capella/capella) ![GitHub stars](https://img.shields.io/github/stars/eclipse-capella/capella?style=flat&label=%E2%AD%90) — Arcadia MBSE for architecture decomposition across system levels. Tags: `OSS`
-- [CARLA](https://github.com/carla-simulator/carla) ![GitHub stars](https://img.shields.io/github/stars/carla-simulator/carla?style=flat&label=%E2%AD%90) + [esmini / OpenSCENARIO](https://github.com/esmini/esmini) ![GitHub stars](https://img.shields.io/github/stars/esmini/esmini?style=flat&label=%E2%AD%90) — Open driving simulator and scenario standards for scenario-level V&V. Tags: `OSS`
+- [Eclipse Capella](https://github.com/eclipse-capella/capella) ![GitHub stars](https://img.shields.io/github/stars/eclipse-capella/capella?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/eclipse-capella/capella?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/eclipse-capella/capella?style=flat&label=released) — Arcadia MBSE for architecture decomposition across system levels. Tags: `OSS`
+- [CARLA](https://github.com/carla-simulator/carla) ![GitHub stars](https://img.shields.io/github/stars/carla-simulator/carla?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/carla-simulator/carla?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/carla-simulator/carla?style=flat&label=released) + [esmini / OpenSCENARIO](https://github.com/esmini/esmini) ![GitHub stars](https://img.shields.io/github/stars/esmini/esmini?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/esmini/esmini?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/esmini/esmini?style=flat&label=released) — Open driving simulator and scenario standards for scenario-level V&V. Tags: `OSS`
 - [openMDM](https://openmdm.org/) — Eclipse components for ASAM ODS–based test data management (the Eclipse working group is no longer active). Tags: `OSS`
 
 ## Contributing

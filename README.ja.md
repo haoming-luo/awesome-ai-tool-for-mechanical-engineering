@@ -6,7 +6,7 @@
 
 **対象範囲:** 機械エンジニア向けに、**CAD → CAE → レビュー → V&V** にわたる商用＋オープンツール。
 
-⭐ バッジは GitHub のスター数をリアルタイム表示します(shields.io)。
+⭐ バッジは GitHub のスター数をリアルタイム表示します(shields.io)。リリースバッジは最新リリースの版数と日付を表示します。
 
 [English](README.md)
 
@@ -82,8 +82,8 @@ MCAD内（または隣接）でモデリングを加速する自然言語アシ�
 
 学習ループを自前で回すときのオープンなPINNs / ニューラル演算子 / ハイブリッドPhysics-ML。
 
-- [NVIDIA PhysicsNeMo](https://developer.nvidia.com/physicsnemo) ![GitHub stars](https://img.shields.io/github/stars/NVIDIA/physicsnemo?style=flat&label=%E2%AD%90) — PINNs、ニューラル演算子、GNN、ハイブリッドPhysics-ML向けPyTorchフレームワーク（[GitHub](https://github.com/NVIDIA/physicsnemo)）。Tags: `OSS`
-- [DeepXDE](https://deepxde.readthedocs.io/) ![GitHub stars](https://img.shields.io/github/stars/lululxvi/deepxde?style=flat&label=%E2%AD%90) — PINNs / PDE向け深層学習の定番ライブラリ。教育・研究の入口に適する（[GitHub](https://github.com/lululxvi/deepxde)）。Tags: `OSS`
+- [NVIDIA PhysicsNeMo](https://developer.nvidia.com/physicsnemo) ![GitHub stars](https://img.shields.io/github/stars/NVIDIA/physicsnemo?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/NVIDIA/physicsnemo?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/NVIDIA/physicsnemo?style=flat&label=released) — PINNs、ニューラル演算子、GNN、ハイブリッドPhysics-ML向けPyTorchフレームワーク（[GitHub](https://github.com/NVIDIA/physicsnemo)）。Tags: `OSS`
+- [DeepXDE](https://deepxde.readthedocs.io/) ![GitHub stars](https://img.shields.io/github/stars/lululxvi/deepxde?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/lululxvi/deepxde?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/lululxvi/deepxde?style=flat&label=released) — PINNs / PDE向け深層学習の定番ライブラリ。教育・研究の入口に適する（[GitHub](https://github.com/lululxvi/deepxde)）。Tags: `OSS`
 
 ## CAD検索、PDM & ナレッジ
 
@@ -116,7 +116,7 @@ CAD/CAEアプリと対話するエージェント向けの短いポインタ。�
 - [awesome-ai-cae](https://github.com/kimimgo/awesome-ai-cae) ![GitHub stars](https://img.shields.io/github/stars/kimimgo/awesome-ai-cae?style=flat&label=%E2%AD%90) — エージェント呼び出し可能なOSS CAE/CADスタック（MCP / Python / CLI）とレディネス評価。Tags: `OSS`
 - [Autodesk Fusion MCP](https://www.autodesk.com/products/fusion-360/blog/introducing-the-fusion-mcp-opening-fusion-to-ai-powered-workflows/) — AIクライアントからFusion内で設計の作成・編集を行う公式MCPサーバー（デスクトップ）と、プロジェクトデータを扱うFusion Data MCP Server。Tags: `Commercial`
 - [Onshape FeatureScript MCP Server](https://www.onshape.com/en/features/onshape-labs) — Onshape Labs（PTC）のアーリーアクセス。AIクライアントがFeatureScriptを記述・実行・修正し、再利用可能なパラメトリックなカスタムフィーチャーを作成。Tags: `Commercial`
-- [text-to-cad](https://github.com/earthtojake/text-to-cad) ![GitHub stars](https://img.shields.io/github/stars/earthtojake/text-to-cad?style=flat&label=%E2%AD%90) — AIコーディングエージェントにCAD機能（STEP/STL出力）を与えるオープンソースのツールキット。2026年10月にGitHubでトレンド入り。Tags: `OSS`
+- [text-to-cad](https://github.com/earthtojake/text-to-cad) ![GitHub stars](https://img.shields.io/github/stars/earthtojake/text-to-cad?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/earthtojake/text-to-cad?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/earthtojake/text-to-cad?style=flat&label=released) — AIコーディングエージェントにCAD機能（STEP/STL出力）を与えるオープンソースのツールキット。2026年10月にGitHubでトレンド入り。Tags: `OSS`
 
 ## 関連Awesomeリスト
 
@@ -124,7 +124,7 @@ CAD/CAEアプリと対話するエージェント向けの短いポインタ。�
 - [awesome-cad-cae](https://github.com/shvyac/awesome-cad-cae) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-cad-cae?style=flat&label=%E2%AD%90) — CAD/CAEアプリ、カーネル、FEA/CFD、トポロジー最適化。Tags: `OSS`
 - [awesome-open-source-solvers](https://github.com/shvyac/awesome-open-source-solvers) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-open-source-solvers?style=flat&label=%E2%AD%90) — オープンなFEM/CFD/MBD/粒子ソルバーと科学計算スタック。Tags: `OSS`
 - [Awesome-Physical-Engineering-AI](https://github.com/010zx00x1/Awesome-Physical-Engineering-AI) ![GitHub stars](https://img.shields.io/github/stars/010zx00x1/Awesome-Physical-Engineering-AI?style=flat&label=%E2%AD%90) — ハードウェアエンジニアリング向けAI（CAD、シミュレーション、製造）。Tags: `OSS`
-- [awesome-mechanical-engineering](https://github.com/brandonhimpfen/awesome-mechanical-engineering) ![GitHub stars](https://img.shields.io/github/stars/brandonhimpfen/awesome-mechanical-engineering?style=flat&label=%E2%AD%90) — より広い機械工学ツール、プラットフォーム、学習リソース。Tags: `OSS`
+- [awesome-mechanical-engineering](https://github.com/brandonhimpfen/awesome-mechanical-engineering) ![GitHub stars](https://img.shields.io/github/stars/brandonhimpfen/awesome-mechanical-engineering?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/brandonhimpfen/awesome-mechanical-engineering?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/brandonhimpfen/awesome-mechanical-engineering?style=flat&label=released) — より広い機械工学ツール、プラットフォーム、学習リソース。Tags: `OSS`
 
 ## 自動車V&V（深掘り）
 
@@ -143,8 +143,8 @@ ODSエコシステムへのポインタ（網羅カタログではありませ�
 
 ### オープンソースMBSE / シナリオ（少数）
 
-- [Eclipse Capella](https://github.com/eclipse-capella/capella) ![GitHub stars](https://img.shields.io/github/stars/eclipse-capella/capella?style=flat&label=%E2%AD%90) — システムレベル間のアーキテクチャ分解向けArcadia MBSE。Tags: `OSS`
-- [CARLA](https://github.com/carla-simulator/carla) ![GitHub stars](https://img.shields.io/github/stars/carla-simulator/carla?style=flat&label=%E2%AD%90) + [esmini / OpenSCENARIO](https://github.com/esmini/esmini) ![GitHub stars](https://img.shields.io/github/stars/esmini/esmini?style=flat&label=%E2%AD%90) — シナリオレベルV&V向けオープン運転シミュレータとシナリオ標準。Tags: `OSS`
+- [Eclipse Capella](https://github.com/eclipse-capella/capella) ![GitHub stars](https://img.shields.io/github/stars/eclipse-capella/capella?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/eclipse-capella/capella?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/eclipse-capella/capella?style=flat&label=released) — システムレベル間のアーキテクチャ分解向けArcadia MBSE。Tags: `OSS`
+- [CARLA](https://github.com/carla-simulator/carla) ![GitHub stars](https://img.shields.io/github/stars/carla-simulator/carla?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/carla-simulator/carla?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/carla-simulator/carla?style=flat&label=released) + [esmini / OpenSCENARIO](https://github.com/esmini/esmini) ![GitHub stars](https://img.shields.io/github/stars/esmini/esmini?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/esmini/esmini?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/esmini/esmini?style=flat&label=released) — シナリオレベルV&V向けオープン運転シミュレータとシナリオ標準。Tags: `OSS`
 - [openMDM](https://openmdm.org/) — ASAM ODSベースの試験データ管理向けEclipseコンポーネント（Eclipseワーキンググループは活動終了）。Tags: `OSS`
 
 ## コントリビューション
